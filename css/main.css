@@ -130,6 +130,11 @@ p {
   justify-content: space-between;
   z-index: 1;
   padding: 1rem;
+  transition: ease-in-out 0.5s;
+}
+
+#navbar:hover {
+  opacity: 1 !important;
 }
 
 #navbar ul {
